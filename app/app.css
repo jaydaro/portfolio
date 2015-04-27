@@ -1,0 +1,199 @@
+/*app css stylesheet */
+
+.body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*position: relative;*/
+}
+
+#introduction {
+
+    padding: 50px 0px;
+    background-image: url(media/transp_bg.png);
+    background-repeat: repeat;
+}
+
+.navbar {
+    font-size: 12pt;
+    padding-left: 25px;
+}
+
+#experience-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    position: relative;
+    background-padding: left 0px top 0px;
+}
+
+#current_faves {
+    text-align: center;
+    float: left;
+    float: right;
+    position: relative;
+    font-size: 15pt;
+}
+
+#about_icons {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.projects {
+
+    background-image: url(media/transp_bg.png);
+    background-repeat: repeat;
+}
+
+.social_media {
+    width: 150px;
+    float: right;
+    padding-top: 8px;
+    /*padding-right: 25px;*/
+}
+
+.social_media li {
+    padding-left: 2px;
+}
+
+.social_media .fa {
+    color: #ffffff;
+}
+
+.explode_element img {
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    /*-ms-transition: all 1s ease; *//* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+.explode_element:hover img {
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -moz-transform: scale(1.25); /* Firefox */
+    -ms-transform: scale(1.25); /* IE 9 */
+    -o-transform: scale(1.25); /* Opera */
+    transform: scale(1.50);
+    z-index: 1;
+
+}
+
+#angular_element img {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#html5_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#python_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+.nodejs_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#django_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#postgresql_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#nodejsbadge_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#mongodb_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#expressjs_element {
+    float: left;
+    padding: 20px 5px 5px 5px;
+    position: relative;
+}
+
+#mysql_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+#tux_element {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+.shrink {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    /*-ms-transition: all 1s ease; *//* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    /*-webkit-transform: scale(1,0.85); *//* Safari and Chrome */
+    /*-moz-transform: scale(1,0.75); *//* Firefox */
+    /*-ms-transform: scale(1,0.75); *//* IE 9 */
+    /*-o-transform: scale(1,0.75); *//* Opera */
+    /*transform: scale(1,0.85);*/
+    opacity: .5;
+}
+
+.center-photos {
+    padding-top: 0 !important;
+    padding-bottom: 15px;
+    float: right;
+    float: left;
+    position: relative;
+}
+
+#current_projects {
+    padding-top: 15px;
+
+}
+
+#current_projects accordion {
+
+}
+
+/*This is for the accordion style to overwrite bootstrap*/
+.panel-default > .panel-heading {
+    /*background-color: lightgrey;*/
+
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
+
+}
+
+#about {
+    margin: 30px 0 0 0;
+
+}
