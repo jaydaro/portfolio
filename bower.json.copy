@@ -15,11 +15,6 @@
     "angular-ui": "~0.4.0",
     "angular-bootstrap": "~0.12.1",
     "angular-chart.js": "~0.6.0",
-    "Chart.js": "~1.0.2",
-    "bootstrap-social": "~4.9.0",
-    "font-awesome": "~4.3.0",
-    "fontawesome": "~4.3.0",
-    "jquery": "~2.1.3",
-    "hover": "~2.0.2"
+    "Chart.js": "~1.0.2"
   }
 }
