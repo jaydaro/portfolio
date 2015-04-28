@@ -2,7 +2,6 @@
 
 .body {
     font-family: 'Roboto', sans-serif;
-
 }
 
 .container {
@@ -23,11 +22,10 @@
     padding-left: 25px;
 }
 
-#experience-container {
+#experience-container img{
     max-width: 100% !important;
     padding: 0 !important;
-    position: relative;
-    background-padding: left 0px top 0px;
+    /*position: relative;*/
 }
 
 #current_faves {
@@ -154,11 +152,6 @@
     /*-ms-transition: all 1s ease; *//* IE 9 */
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
-    /*-webkit-transform: scale(1,0.85); *//* Safari and Chrome */
-    /*-moz-transform: scale(1,0.75); *//* Firefox */
-    /*-ms-transform: scale(1,0.75); *//* IE 9 */
-    /*-o-transform: scale(1,0.75); *//* Opera */
-    /*transform: scale(1,0.85);*/
     opacity: .5;
 }
 
@@ -175,14 +168,8 @@
 
 }
 
-#current_projects accordion {
-
-}
-
 /*This is for the accordion style to overwrite bootstrap*/
 .panel-default > .panel-heading {
-    /*background-color: lightgrey;*/
-
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); /* Chrome10+,Safari5.1+ */

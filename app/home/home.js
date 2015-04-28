@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('myApp.about', ['ngRoute'])
+angular.module('myApp.home', ['ngRoute'])
 
     .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/about', {
-            templateUrl: 'about/about.html',
-            controller: 'AboutCtrl'
+        $routeProvider.when('/home', {
+            templateUrl: 'home/home.html',
+            controller: 'HomeCtrl'
         });
     }])
 
-    .controller('AboutCtrl', ['$http', '$scope', '$modal', '$log', function ($http, $scope, $modal, $log) {
+    .controller('HomeCtrl', ['$http', '$scope', '$modal', '$log', function ($http, $scope, $modal, $log) {
 
         $scope.items = ['item1', 'item2', 'item3'];
 
@@ -57,7 +57,7 @@ angular.module('myApp.about', ['ngRoute'])
 
     }]);
 
-angular.module('myApp.about').controller('AccordionDemoCtrl', function ($scope) {
+angular.module('myApp.home').controller('AccordionDemoCtrl', function ($scope) {
   $scope.oneAtATime = true;
 
   $scope.status = {
